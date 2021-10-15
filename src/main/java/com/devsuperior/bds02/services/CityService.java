@@ -37,7 +37,7 @@ public class CityService {
 		return new CityDTO(entity);
 	}
 
-	@Transactional
+	
 	public void delete(Long id) {
 		try {
 			repository.deleteById(id);
